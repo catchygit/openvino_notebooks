@@ -105,14 +105,14 @@ Congratulations! You have successfully set up and run the Explainable AI kit.
 
 Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
 
-## Benchmark Results 
+### Benchmark Results 
 
 ![YOLOv8m Benchmark Results](https://github.com/openvinotoolkit/openvino_notebooks/assets/109281183/2d59819e-61b7-4995-bdf3-a6d1090afdd4)
 ![](https://github.com/openvinotoolkit/openvino_notebooks/assets/109281183/bed6fc01-f0d4-4f8e-af6a-703182947232)
 
 Benchmarking was performed on an Intel® Xeon® Platinum 8480+ (1 socket, 56 cores) running Ubuntu 22.04.2 LTS. The tests utilized the YOLOv8m model with OpenVINO 2023.0. For complete configuration, please check the Appendix section.
 
-## Running the Benchmark
+### Running the Benchmark
 
 Use the following command to run the benchmark:
 
@@ -121,7 +121,7 @@ Use the following command to run the benchmark:
 ```
 Replace `int8_model_det_path` with the path to your INT8 model and $device with the specific device you're using (CPU, GPU, etc.). This command performs inference on the model for 30 seconds. Run `benchmark_app --help` for additional command-line options.
 
-## Appendix
+### Appendix
 
 Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
