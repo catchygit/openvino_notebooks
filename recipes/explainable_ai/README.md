@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 # Explainable AI with OpenVINO™ Toolkit
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
@@ -94,6 +96,8 @@ You can run [explainable_ai.ipynb](explainable_ai.ipynb) to learn more about the
 
 Congratulations! You have successfully set up and run the Explainable AI kit.
 
+<p align="right"><a href="#top">Top ⬆️ </a></p>
+
 # Benchmarking the Model with OpenVINO's `benchmark_app`
 
 <details>
@@ -146,3 +150,5 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
 ### Code demo video
 [![explainable AI code demo video](https://img.youtube.com/vi/InXb2wLCsJE/0.jpg)](https://www.youtube.com/watch?v=InXb2wLCsJE)
+
+<p align="right"><a href="#top">Top ⬆️ </a></p>
