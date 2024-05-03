@@ -96,7 +96,7 @@ You can run [explainable_ai.ipynb](explainable_ai.ipynb) to learn more about the
 
 Congratulations! You have successfully set up and run the Explainable AI kit.
 
-<p align="right"><a href="#top">Top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
 
 # Benchmarking the Model with OpenVINO's `benchmark_app`
 
@@ -141,6 +141,8 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
 
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
+
 </details>
 
 # Resources
@@ -151,4 +153,4 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 ### Code demo video
 [![explainable AI code demo video](https://img.youtube.com/vi/InXb2wLCsJE/0.jpg)](https://www.youtube.com/watch?v=InXb2wLCsJE)
 
-<p align="right"><a href="#top">Top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
