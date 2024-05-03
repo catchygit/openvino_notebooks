@@ -24,11 +24,11 @@ This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning 
 
 Before running the above notebook, run the installation process inside the OpenVINO Notebooks environment.
 
-## Getting Started
+# Getting Started
 
 Now, let's dive into the steps starting with installing Python. We recommend using Ubuntu to set up and run this project.
 
-### Installing Prerequisites
+## Installing Prerequisites
 
 This project requires Python 3.8 or higher and a few libraries. If you don't have Python installed on your machine, go to https://www.python.org/downloads/ and download the latest version for your operating system. Follow the prompts to install Python, making sure to check the option to add Python to your PATH environment variable.
 
@@ -40,9 +40,9 @@ sudo apt install git git-lfs gcc python3-venv python3-dev
 
 _NOTE: If you are using Windows, you will probably need to install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) also._
 
-### Setting up your Environment
+## Setting up your Environment
 
-#### Cloning the Repository
+### Cloning the Repository
 
 To clone the repository, run the following command:
 
@@ -62,7 +62,7 @@ Then pull the video sample:
 git lfs pull
 ```
 
-#### Creating a Virtual Environment
+### Creating a Virtual Environment
 
 To create a virtual environment, open your terminal or command prompt and navigate to the directory where you want to create the environment. Then, run the following command:
 
@@ -71,7 +71,7 @@ python3 -m venv venv
 ```
 This will create a new virtual environment named "venv" in the current directory.
 
-#### Activating the Environment
+### Activating the Environment
 
 Activate the virtual environment using the following command:
 
@@ -83,7 +83,7 @@ _NOTE: If you are using Windows, use the `venv\Scripts\activate` command instead
 
 This will activate the virtual environment and change your shell's prompt to indicate that you are now working within that environment.
 
-#### Installing the Packages
+### Installing the Packages
 
 To install the required packages, run the following commands:
 
@@ -92,24 +92,24 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Running the Application
+## Running the Application
 
 You can run [explainable_ai.ipynb](explainable_ai.ipynb) to learn more about the inference process. This notebook contains detailed instructions to run the Explainable AI application, load and analyze a short data section with data quality metrics, and generate saliency maps with an OpenVINO YOLOv8 model using Ultralytics. For the data quality metrics generation, we leverage the open-source toolkit datumaro, including specifically the tutorial [here](https://github.com/openvinotoolkit/datumaro/blob/develop/notebooks/11_validate.ipynb). This edge AI reference kit focuses on a specific digital transportation use case, with an analysis of only a few data quality metrics—please visit the [Datumaro tutorials](https://github.com/openvinotoolkit/datumaro/tree/develop/notebooks) for resources on how to perform advanced data exploration, and explore and remediate more types of data quality issues.
 
 Congratulations! You have successfully set up and run the Explainable AI kit.
 
-## Benchmarking the Model with OpenVINO's `benchmark_app`
+# Benchmarking the Model with OpenVINO's `benchmark_app`
 
 Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
 
-### Benchmark Results 
+## Benchmark Results 
 
 ![YOLOv8m Benchmark Results](https://github.com/openvinotoolkit/openvino_notebooks/assets/109281183/2d59819e-61b7-4995-bdf3-a6d1090afdd4)
 ![](https://github.com/openvinotoolkit/openvino_notebooks/assets/109281183/bed6fc01-f0d4-4f8e-af6a-703182947232)
 
 Benchmarking was performed on an Intel® Xeon® Platinum 8480+ (1 socket, 56 cores) running Ubuntu 22.04.2 LTS. The tests utilized the YOLOv8m model with OpenVINO 2023.0. For complete configuration, please check the Appendix section.
 
-### Running the Benchmark
+## Running the Benchmark
 
 Use the following command to run the benchmark:
 
@@ -118,7 +118,7 @@ Use the following command to run the benchmark:
 ```
 Replace `int8_model_det_path` with the path to your INT8 model and $device with the specific device you're using (CPU, GPU, etc.). This command performs inference on the model for 30 seconds. Run `benchmark_app --help` for additional command-line options.
 
-### Appendix
+## Appendix
 
 Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
@@ -140,12 +140,12 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
 
-## Relevant Resources
+# Relevant Resources
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel ​
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit
 - [Edge AI Reference Kits​](https://github.com/openvinotoolkit/openvino_notebooks/tree/recipes/recipes): Explore more of our kits
 
-## Troubleshooting and Discussions
+# Troubleshooting and Discussions
 Share your results in the discussion channel! 😊
 
 - Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
