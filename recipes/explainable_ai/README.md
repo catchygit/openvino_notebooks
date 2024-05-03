@@ -18,8 +18,7 @@ This kit uses the following technology stack: [OpenVINO toolkit](https://github.
   - [Setting up your Environment](#setting-up-your-environment)
   - [Running the Application](#running-the-application)
 - [Benchmarking the Model with OpenVINO's `benchmark_app`](#benchmarking-the-model-with-openvinos-benchmark_app)
-- [Relevant Resources](#relevant-resources)
-- [Troubleshooting and Discussions](#troubleshooting-and-discussions)
+- [Resources](#resources)
 
 </details>
 
@@ -140,7 +139,7 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
 </details>
 
-# Relevant Resources
+# Resources
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel ​
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit
 - [Edge AI Reference Kits​](https://github.com/openvinotoolkit/openvino_notebooks/tree/recipes/recipes): Explore more of our kits
