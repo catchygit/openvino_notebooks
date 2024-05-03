@@ -17,7 +17,7 @@ The Explainable AI kit demonstrates how to use data quality measurements and sal
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
-<details open><summary>**Table of Contents**</summary>
+<details open><summary><b>Table of Contents</b></summary>
   
 - [Getting Started](#getting-started)
   - [Installing Prerequisites](#installing-prerequisites)
