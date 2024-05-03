@@ -17,8 +17,9 @@ The Explainable AI kit demonstrates how to use data quality measurements and sal
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
-## Table of Contents
-
+<details open>
+<summary></b>📕 Table of Contents</b></summary>
+  
 - [Getting Started](#getting-started)
   - [Installing Prerequisites](#installing-prerequisites)
   - [Setting up your Environment](#setting-up-your-environment)
@@ -26,6 +27,8 @@ The Explainable AI kit demonstrates how to use data quality measurements and sal
 - [Benchmarking the Model with OpenVINO's `benchmark_app`](#benchmarking-the-model-with-openvinos-benchmark_app)
 - [Relevant Resources](#relevant-resources)
 - [Troubleshooting and Discussions](#troubleshooting-and-discussions)
+
+</details>
 
 # Getting Started
 
@@ -103,7 +106,8 @@ Congratulations! You have successfully set up and run the Explainable AI kit.
 
 # Benchmarking the Model with OpenVINO's `benchmark_app`
 
-Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
+<details>
+<summary>Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration. ⬇️</summary>
 
 ### Benchmark Results 
 
@@ -142,6 +146,8 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | TDP | 350W | 15W | 45W | 235W | 45W | 45W |
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
+
+</details>
 
 # Relevant Resources
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel ​
