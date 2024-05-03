@@ -2,7 +2,8 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-⬆️ [Edge AI Reference Kits](/recipes) • 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions) • 📚 [Learn about OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) • 📝 [Explore OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+[Explainable AI ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](explainable_ai.ipynb) • ⬆️ [Edge AI Reference Kits](/recipes) • 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions) • 📚 [Learn about OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) • 📝 [Explore OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+
 
 The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
@@ -10,10 +11,6 @@ The Explainable AI kit demonstrates how to use data quality measurements and sal
 - [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino)
   - [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop)
 - [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
-
-| Notebook |  |
-| - | - |
-| Explainable AI | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](explainable_ai.ipynb) |
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
