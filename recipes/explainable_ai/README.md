@@ -4,9 +4,13 @@
 
 ⬆️ [Edge AI Reference Kits](/recipes) • 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions) • 📚 [Learn about OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) • 📝 [Explore OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
 
-The Explainable AI kit is an application that demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how computer vision models make predictions, and this helps refine our models for efficiency and performance. Computer vision models are continuing to rapidly grow in their capabilities and the use cases they can support, including intelligent queue management and automated self-checkout for retail use cases, anomaly detection of transistors on the manufacturing floor, and more.
+The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
-This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning models on various hardware platforms. You can follow along with our Jupyter Notebook on our GitHub repository. You will be using the following stack of technologies: OpenVINO toolkit, Ultralytic’s YOLOv8, and the [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) library.
+This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning models on various hardware platforms. You can follow along with our Jupyter Notebook on our GitHub repository.
+You will be using the following stack of technologies:
+- [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino)
+- [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
+- [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) library.
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
