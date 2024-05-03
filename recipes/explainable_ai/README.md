@@ -6,6 +6,7 @@ The Explainable AI kit is an application that demonstrates how to use data quali
 
 This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning models on various hardware platforms. You can follow along with our Jupyter Notebook on our GitHub repository. You will be using the following stack of technologies: OpenVINO toolkit, Ultralytic’s YOLOv8, and the [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) library.
 
+![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
 ## Table of Contents
 
@@ -22,7 +23,13 @@ This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning 
 	- [Running the Benchmark](#running-the-benchmark)
 - [Appendix](#appendix)
 - [Relevant Resources](#relevant-resources)
-- [Troubleshooting](#troubleshooting)
+- [Troubleshooting and Discussions](#troubleshooting-and-discussions)
+
+| Notebook |  |
+| - | - |
+| Explainable AI | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](explainable_ai.ipynb) |
+
+Before running the above notebook, run the installation process inside the OpenVINO Notebooks environment.
 
 ## Getting Started
 
@@ -145,7 +152,9 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit
 - [Edge AI Reference Kits​](https://github.com/openvinotoolkit/openvino_notebooks/tree/recipes/recipes): Explore more of our kits
 
-## Troubleshooting
+## Troubleshooting and Discussions
+Share your results in the discussion channel! 😊
+
 - Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
 - Create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issues)
 - Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
