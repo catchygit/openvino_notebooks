@@ -1,6 +1,8 @@
 # Explainable AI with OpenVINO™ Toolkit
 
-[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE) — [Edge AI Reference Kits](/recipes)
+[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
+
+[Edge AI Reference Kits](/recipes) • Share your results in a [discussion](https://github.com/openvinotoolkit/openvino_notebooks/discussions) • Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) • Explore [OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
 
 The Explainable AI kit is an application that demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how computer vision models make predictions, and this helps refine our models for efficiency and performance. Computer vision models are continuing to rapidly grow in their capabilities and the use cases they can support, including intelligent queue management and automated self-checkout for retail use cases, anomaly detection of transistors on the manufacturing floor, and more.
 
@@ -144,11 +146,3 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel ​
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit
 - [Edge AI Reference Kits​](https://github.com/openvinotoolkit/openvino_notebooks/tree/recipes/recipes): Explore more of our kits
-
-# Troubleshooting and Discussions
-Share your results in the discussion channel! 😊
-
-- Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
-- Create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issues)
-- Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
-- Explore [OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
