@@ -6,11 +6,14 @@
 
 The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
-This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning models on various hardware platforms. You can follow along with our Jupyter Notebook on our GitHub repository.
-You will be using the following stack of technologies:
+### Tech stack
 - [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino)
 - [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
 - [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) library.
+
+| Notebook |  |
+| - | - |
+| Explainable AI | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](explainable_ai.ipynb) |
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
@@ -23,12 +26,6 @@ You will be using the following stack of technologies:
 - [Benchmarking the Model with OpenVINO's `benchmark_app`](#benchmarking-the-model-with-openvinos-benchmark_app)
 - [Relevant Resources](#relevant-resources)
 - [Troubleshooting and Discussions](#troubleshooting-and-discussions)
-
-| Notebook |  |
-| - | - |
-| Explainable AI | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](explainable_ai.ipynb) |
-
-Before running the above notebook, run the installation process inside the OpenVINO Notebooks environment.
 
 # Getting Started
 
