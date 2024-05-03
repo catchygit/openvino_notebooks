@@ -7,10 +7,7 @@
 
 The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
-### Tech stack
-- [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino)
-  - [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop)
-- [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
+This kit uses the following technology stack: [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino), [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop), [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics).
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
