@@ -8,8 +8,8 @@ The Explainable AI kit demonstrates how to use data quality measurements and sal
 
 ### Tech stack
 - [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino)
+  - [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop)
 - [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
-- [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) library.
 
 | Notebook |  |
 | - | - |
