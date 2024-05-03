@@ -144,3 +144,6 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel ​
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit
 - [Edge AI Reference Kits​](https://github.com/openvinotoolkit/openvino_notebooks/tree/recipes/recipes): Explore more of our kits
+
+### Code demo video
+[![explainable AI code demo video](https://img.youtube.com/vi/InXb2wLCsJE/0.jpg)](https://www.youtube.com/watch?v=InXb2wLCsJE)
