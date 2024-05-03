@@ -25,11 +25,9 @@ This kit uses the following technology stack: [OpenVINO toolkit](https://github.
 
 # Getting Started
 
-Now, let's dive into the steps starting with installing Python. We recommend using Ubuntu to set up and run this project.
-
 ## Installing Prerequisites
 
-This project requires Python 3.8 or higher and a few libraries. If you don't have Python installed on your machine, go to https://www.python.org/downloads/ and download the latest version for your operating system. Follow the prompts to install Python, making sure to check the option to add Python to your PATH environment variable.
+Now, let's dive into the steps starting with installing Python. We recommend using Ubuntu to set up and run this project. This project requires Python 3.8 or higher and a few libraries. If you don't have Python installed on your machine, go to https://www.python.org/downloads/ and download the latest version for your operating system. Follow the prompts to install Python, making sure to check the option to add Python to your PATH environment variable.
 
 Install libraries and tools:
 
