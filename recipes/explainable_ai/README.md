@@ -15,9 +15,6 @@ This kit uses the OpenVINO toolkit, enabling developers to deploy deep learning 
   - [Setting up your Environment](#setting-up-your-environment)
   - [Running the Application](#running-the-application)
 - [Benchmarking the Model with OpenVINO's `benchmark_app`](#benchmarking-the-model-with-openvinos-benchmark_app)
-  - [Benchmark Results](#benchmark-results)
-  - [Running the Benchmark](#running-the-benchmark)
-- [Appendix](#appendix)
 - [Relevant Resources](#relevant-resources)
 - [Troubleshooting and Discussions](#troubleshooting-and-discussions)
 
@@ -99,6 +96,8 @@ pip install -r requirements.txt
 
 You can run the [Computer Vision Data Quality and Explainability Kit.ipynb](Computer Vision Data Quality and Explainability Kit.ipynb) to learn more about the inference process. This notebook contains detailed instructions to run the CV Explainability application, load and analyze a short data section with data quality metrics, and generate saliency maps with an OpenVINO YOLOv8 model using Ultralytics. For the data quality metrics generation, we leverage the open-source toolkit datumaro, including specifically the tutorial [here](https://github.com/openvinotoolkit/datumaro/blob/develop/notebooks/11_validate.ipynb). This edge AI reference kit focuses on a specific digital transportation use case, with an analysis of only a few data quality metrics - please visit the [Datumaro tutorials](https://github.com/openvinotoolkit/datumaro/tree/develop/notebooks) for resources on how to perform advanced data exploration, and explore and remediate more types of data quality issues.
 
+Congratulations! You have successfully set up and run the Explainable AI kit.
+
 ## Benchmarking the Model with OpenVINO's `benchmark_app`
 
 Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
@@ -119,9 +118,7 @@ Use the following command to run the benchmark:
 ```
 Replace `int8_model_det_path` with the path to your INT8 model and $device with the specific device you're using (CPU, GPU, etc.). This command performs inference on the model for 30 seconds. Run `benchmark_app --help` for additional command-line options.
 
-Congratulations! You have successfully set up and run the Explainable AI kit.
-
-## Appendix
+### Appendix
 
 Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
