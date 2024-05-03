@@ -1,6 +1,6 @@
 # Explainable AI with OpenVINO™ Toolkit
 
-[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE) — [Edge AI Reference Kits](recipes)
+[![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE) — [Edge AI Reference Kits](/recipes)
 
 The Explainable AI kit is an application that demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how computer vision models make predictions, and this helps refine our models for efficiency and performance. Computer vision models are continuing to rapidly grow in their capabilities and the use cases they can support, including intelligent queue management and automated self-checkout for retail use cases, anomaly detection of transistors on the manufacturing floor, and more.
 
