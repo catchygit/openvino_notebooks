@@ -2,12 +2,14 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-📔 [Jupyter Notebook](explainable_ai.ipynb) • ▶️ [Code Demo Video](https://www.youtube.com/watch?v=InXb2wLCsJE) • ⬆️ [Edge AI Reference Kits](/recipes) • 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions) • 📚 [Learn about OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) • 📝 [Explore OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+📔 [Jupyter Notebook](explainable_ai.ipynb) • ▶️ [Code Demo Video](https://www.youtube.com/watch?v=InXb2wLCsJE) • 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
 
 
 The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
-This kit uses the following technology stack: [OpenVINO toolkit](https://github.com/openvinotoolkit/openvino), [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop), [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics).
+This kit uses the following technology stack: [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics) and [OpenVINO Datumaro](https://github.com/openvinotoolkit/datumaro/tree/develop) which is a part of the [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html). Learn more with [OpenVINO’s documentation]([https://docs.openvino.ai/2023.0/home.html](https://docs.openvino.ai/)).
+
+To explore other kits like this one, check our ⬆️ [Edge AI Reference Kits repo](/recipes).
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
