@@ -10,13 +10,7 @@
   </h4>
 </div>
 
-# Explainable AI with OpenVINO™ Toolkit
-
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
-
-| | | |
-| ------------- | ------------- | ------------- |
-| 📔 [Jupyter Notebook](explainable_ai.ipynb) | ▶️ [Code Demo Video](https://www.youtube.com/watch?v=InXb2wLCsJE) | 👥 [Share your results](https://github.com/openvinotoolkit/openvino_notebooks/discussions) |
 
 The Explainable AI kit demonstrates how to use data quality measurements and saliency maps to understand the predictions and performance of computer vision models during inference. Data and model explainability help us understand how predictions are made to help refine models for efficiency and performance.
 
