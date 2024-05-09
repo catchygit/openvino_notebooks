@@ -1,3 +1,15 @@
+<div align="center">
+  <h1>Explainable AI with OpenVINO™ Toolkit</h1>
+  
+  <h4>
+    <a href="explainable_ai.ipynb">📔 Jupyter Notebook</a>
+    <span> · </span>
+    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE"> ▶️ Code Demo Video</a>
+    <span> · </span>
+    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥 Share your results</a>
+  </h4>
+</div>
+
 # Explainable AI with OpenVINO™ Toolkit
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
