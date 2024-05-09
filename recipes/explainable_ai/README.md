@@ -17,6 +17,10 @@ Check out our [Edge AI Reference Kits](/recipes) repository for more kits.
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
+### What's New
+
+The latest updates will be added here!
+
 <details open><summary><b>Table of Contents</b></summary>
   
 - [Getting Started](#getting-started)
