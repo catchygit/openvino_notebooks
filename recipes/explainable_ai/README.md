@@ -2,9 +2,15 @@
   <h1>Explainable AI with OpenVINO™ Toolkit</h1>
   
   <h4>
+    <a href="explainable_ai.ipynb">🏠 Learn about our Kits</a>
+    <span> · </span>
     <a href="explainable_ai.ipynb">📔 Jupyter Notebook</a>
     <span> · </span>
-    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE"> ▶️ Code Demo Video</a>
+    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE"> ▶️ Overview Video</a>
+    <span> · </span>
+    <a href="/"> ▶️ Code Demo Video</a>
+    <span> · </span>
+    <a href="/"> 📚 Step-by-step Tutorial</a>
     <span> · </span>
     <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥 Share your results</a>
   </h4>
