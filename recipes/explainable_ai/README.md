@@ -6,13 +6,13 @@
     <span> · </span>
     <a href="explainable_ai.ipynb">📔 Jupyter Notebook</a>
     <span> · </span>
+    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥 Share your results</a>
+    <br>
     <a href="https://www.youtube.com/watch?v=InXb2wLCsJE"> ▶️ Overview Video</a>
     <span> · </span>
     <a href="/"> ▶️ Code Demo Video</a>
     <span> · </span>
     <a href="/"> 📚 Step-by-step Tutorial</a>
-    <span> · </span>
-    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥 Share your results</a>
   </h4>
 </div>
 
