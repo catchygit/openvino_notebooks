@@ -10,7 +10,7 @@
     <span> · </span>
     <a href="/"> ▶️&nbsp;Code&nbsp;Demo&nbsp;Video</a>
     <span> · </span>
-    <a href="/"> 📚&nbsp;Step-by-step&nbsp;Tutorial</a>
+    <a href="/"> 📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
     <span> · </span>
     <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
   </h4>
