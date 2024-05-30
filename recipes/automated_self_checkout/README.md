@@ -12,7 +12,14 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-Automated Self-Checkout is an application designed to help automate checkout for retail businesses, by analyzing video streams and detecting and tracking interactions with retail products. It uses OpenVINO, a toolkit that enables developers to deploy deep learning models on a variety of hardware platforms.
+Automated Self-Checkout is an application designed to help automate checkout for retail businesses, by analyzing video streams and detecting and tracking interactions with retail products. It uses OpenVINO, a toolkit that enables developers to deploy deep learning models on various hardware platforms.
+
+This kit uses the following technology stack:
+- [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
+- [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Roboflow’s supervision](https://supervision.roboflow.com/latest/)
+
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![automated-self-checkout](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/965a6604-fa15-427e-9d44-c23fa0bbeb6b)
 
@@ -101,7 +108,7 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-You can run the [run-the-application.ipynb](self-checkout-recipe.ipynb) to learn more about the inference process.
+You can run [run-the-application.ipynb](self-checkout-recipe.ipynb) to learn more about the inference process.
 
 <p align="right"><a href="#top">Back to top ⬆️</a></p>
 
