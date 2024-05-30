@@ -1,7 +1,7 @@
 <div id="top" align="center">
   <h1>Defect Detection with Anomalib and OpenVINO™ Toolkit</h1>
   <h4>
-    <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
+    <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;the&nbsp;Kits&nbsp;·</a>
     <a href="https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501a_training_a_model_with_cubes_from_a_robotic_arm.ipynb">📔&nbsp;Jupter Notebook: Training</a>,
     <a href="https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501b_inference_with_a_robotic_arm.ipynb">Inference&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=ho6R69EDyao">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
