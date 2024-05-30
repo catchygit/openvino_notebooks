@@ -5,7 +5,7 @@
     <a href="https://github.com/openvinotoolkit/openvino_notebooks/blob/recipes/notebooks/203-meter-reader/203-meter-reader.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=y2xCZYe8GAQ">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=9jcFGzFjHXo">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
+    <a href="https://www.intel.com/content/www/us/en/developer/articles/training/create-smart-meter-scanning.html">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
   </h4>
 </div>
 
