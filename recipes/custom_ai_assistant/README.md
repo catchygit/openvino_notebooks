@@ -4,7 +4,6 @@
     <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
     <a href="explainable_ai.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
     <a href="#">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;(Coming Soon)&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
     <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
   </h4>
 </div>
@@ -12,6 +11,12 @@
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
 The Custom AI Assistant utilizes the OpenVINO™ toolkit to create a streamlined, voice-activated interface that developers can easily integrate and deploy. At its core, the application harnesses state-of-the-art models for speech recognition and natural language understanding. It's configured to understand user prompts and engage in dialogue, facilitating an interactive and user-friendly conversational agent.
+
+This kit uses the following technology stack:
+- [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
+- [Meta’s Llama](https://llama.meta.com/llama2/)
+
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![custom-ai-assistant](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/e0c2f2db-c213-4071-970b-09ebc1eea710)
 
@@ -44,7 +49,7 @@ Install libraries and tools:
 sudo apt install git gcc python3-venv python3-dev
 ```
 
-_NOTE: If you are using Windows, you may need to install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) also._
+_NOTE: If you are using Windows, you may also need to install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)._
 
 ## Setting up your Environment
 
@@ -76,7 +81,7 @@ This will create a new virtual environment named "venv" in the current directory
 Activate the virtual environment using the following command:
 
 ```shell
-source venv/bin/activate   # For Unix-based operating system such as Linux or macOS
+source venv/bin/activate   # For Unix-based operating systems such as Linux or macOS
 ```
 
 _NOTE: If you are using Windows, use `venv\Scripts\activate` command instead._
@@ -106,7 +111,7 @@ Accept the terms and submit the form. You will receive an email granting access 
 
 Set Up a Hugging Face Account: If you don't have one, create a [Hugging Face account](https://huggingface.co/welcome).
 
-Authenticate with Meta AI: Go to the LlaMA model (v2 or v3) page on Hugging Face. You'll need to enter the same email address you used for the Meta AI website to be authenticated. After authentication, you'll gain access to the model.
+Authenticate with Meta AI: Go to the LlaMA model (v2 or v3) page on Hugging Face. To authenticate, enter the same email address you used for the Meta AI website. After authentication, you'll gain access to the model.
 
 To use the model, authenticate using the Hugging Face CLI:
 
@@ -119,7 +124,7 @@ Now, you're ready to download and optimize the models required to run the applic
 
 ## Model Conversion and Optimization
 
-_NOTE: This reference kit requires much bandwidth and disk space (>8GB) for downloading models. Also, the conversion may take much time (>2h) and need much memory (>32GB)) when running for the first time as the models used here are huge. However, after the first run, the subsequent runs will be done much faster._
+_NOTE: This reference kit requires much bandwidth and disk space (>8GB) for downloading models. Also, the conversion may take much time (>2h) and need much memory (>32GB)) when running for the first time as the models used here are huge. After the first run, the subsequent runs will be done much faster._
 
 The application uses three separate models for its operation, each requiring conversion and optimization for use with OpenVINO™. Follow the order below to convert and optimize each model:
 
@@ -133,7 +138,7 @@ This script will convert and optimize the automatic speech recognition (ASR) mod
 ```shell
 python convert_and_optimize_chat.py --chat_model_type llama3-8B --quantize_weights int8
 ```
-This script will handle the conversion and optimization of the chat model performing weights quantization. 
+This script will handle the conversion and optimization of the chat model, performing weights quantization. 
 
 After running the conversion scripts, you can run app.py to launch the application.
 
@@ -145,10 +150,10 @@ Execute the `app.py` script with the following command, including all necessary 
 ```shell
 python app.py --asr_model_dir path/to/asr_model --chat_model_dir path/to/chat_model
 ```
-Make sure to replace `path/to/asr_model` and `path/to/chat_model` with actual paths to your respective models. Add `--public_interface` to make it publicly accessible.
+Replace `path/to/asr_model` and `path/to/chat_model` with actual paths to your respective models. Add `--public_interface` to make it publicly accessible.
 
 ### Accessing the Web Interface
-Upon successful execution of the script, Gradio will provide a local URL, typically `http://127.0.0.1:XXXX`, which you can open in your web browser to start interacting with the assistant. If you configured the application to be accessible publicly, Gradio will also provide a public URL.
+After running the script, Gradio will provide a local URL, typically `http://127.0.0.1:XXXX`, which you can open in your web browser to start interacting with the assistant. If you configured the application to be accessible publicly, Gradio will also provide a public URL.
 
 Trying Out the Application
 1. Navigate to the provided Gradio URL in your web browser.
@@ -158,7 +163,7 @@ Trying Out the Application
     - Wait for the assistant to process your speech and respond.
 4. The assistant will respond to your query in text.
 
-Feel free to engage with the Custom AI Assistant, ask questions, or give commands as per the assistant's capabilities. This hands-on experience will help you better understand the assistant's interactive quality and performance.
+Feel free to engage with the Custom AI Assistant, ask questions, or give commands as per the assistant's capabilities. This hands-on experience will help you understand the assistant's interactive quality and performance.
 
 Enjoy exploring the capabilities of your Custom AI Assistant!
 
