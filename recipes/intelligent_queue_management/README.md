@@ -13,7 +13,13 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-The Intelligent Queue Management project is an application that uses OpenVINO™, a toolkit that enables developers to deploy deep learning models on a variety of hardware platforms. The application is designed to help businesses manage customer queues more effectively, by analyzing video streams from cameras and detecting the number of people in each queue. The system then uses this information to optimize the queuing process and reduce waiting times for customers.
+The Intelligent Queue Management project is an application that uses OpenVINO™, a toolkit that enables developers to deploy deep learning models on various hardware platforms. The application is designed to help businesses manage customer queues more effectively by analyzing camera video streams and detecting the number of people in each queue. The system then uses this information to optimize the queuing process and reduce customer wait times.
+
+This kit uses the following technology stack:
+- [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
+- [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
+
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![intelligent-queue-management](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/6874cfe8-3462-4b30-8026-c14aab7b695c)
 
@@ -65,7 +71,7 @@ The above will clone the repository into a directory named "openvino_notebooks" 
 cd openvino_notebooks/recipes/intelligent_queue_management
 ```
 
-Then pull video sample:
+Then pull the video sample:
 
 ```shell
 git lfs pull
@@ -85,7 +91,7 @@ This will create a new virtual environment named "venv" in the current directory
 Activate the virtual environment using the following command:
 
 ```shell
-source venv/bin/activate   # For Unix-based operating system such as Linux or macOS
+source venv/bin/activate   # For Unix-based operating systems such as Linux or macOS
 ```
 
 _NOTE: If you are using Windows, use `venv\Scripts\activate` command instead._
@@ -109,7 +115,7 @@ To convert and optimize the YOLOv8 model, run the following command:
 python convert_and_optimize.py --model_name yolov8m --model_dir model --data_dir data --quantize True
 ```
 This will convert the YOLOv8 model to an OpenVINO™ Intermediate Representation (IR) format and optimize it for use with OpenVINO™.
-You can run either the python script or check out [convert-and-optimize-the-model.ipynb](docs/convert-and-optimize-the-model.ipynb) to learn more.
+You can run the Python script or check out [convert-and-optimize-the-model.ipynb](docs/convert-and-optimize-the-model.ipynb) to learn more.
 
 ## Running the Application
 
@@ -119,7 +125,7 @@ To run the application, use the following command:
 python app.py --stream sample_video.mp4 --model_path model/yolov8m_openvino_int8_model/yolov8m.xml --zones_config_file zones.json --customers_limit 3
 ```
 This will run the application with the specified arguments. Replace "video_file.mp4" with the path to your input video file, "zones.json" with the path to your zones configuration file, and "3" with the maximum number of customers allowed in the queue.
-You can also run the [run-the-application.ipynb](docs/run-the-application.ipynb) to learn more about the inference process. To stop the application please, press 'q' or escape at any time.
+You can also run the [run-the-application.ipynb](docs/run-the-application.ipynb) to learn more about the inference process. To stop the application at any time, press 'q' or escape.
 
 _NOTE: Alternatively, you can run all steps with the following command:_
 
