@@ -12,7 +12,13 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-Smart Meter Scanning is an AI-based application that enables cameras to automatically read results from your analog meters, transforming it into digital data with accurate, near-real-time meter results. It uses computer vision, object detection, and object segmentation.
+Smart Meter Scanning is an AI-based application that enables cameras to automatically read results from analog meters, transforming those results into digital data with accurate, near-real-time meter results. It uses computer vision, object detection, and object segmentation.
+
+This kit uses the following technology stack:
+- [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
+- [Models from PaddlePaddle](https://github.com/PaddlePaddle)
+
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![smart-meter-scanning](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/0136d123-15c9-4696-bf4d-b169b3c7db4d)
 
@@ -68,7 +74,7 @@ This will create a new virtual environment named "venv" in the current directory
 Activate the virtual environment using the following command:
 
 ```shell
-source venv/bin/activate   # For Unix-based operating system such as Linux or macOS
+source venv/bin/activate   # For Unix-based operating systems such as Linux or macOS
 ```
 
 NOTE: If you are using Windows, use `venv\Scripts\activate` command instead.
@@ -101,7 +107,7 @@ python main.py -i data/test.jpg -c config/config.json  -t "analog"
 ```
 
 This will run the application with the specified arguments. Replace "data/test.jpg" with the path to your input image.
-The result images will be exported to same fold of test image. You can also run the [203-meter-reader.ipynb](../../notebooks/203-meter-reader/203-meter-reader.ipynb) to learn more about the inference process.
+The result images will be exported to the same test image folder. You can also run the [203-meter-reader.ipynb](../../notebooks/203-meter-reader/203-meter-reader.ipynb) to learn more about the inference process.
 
 Congratulations! You have successfully set up and run the Automatic Industrial Meter Reading application with OpenVINO™.
 
