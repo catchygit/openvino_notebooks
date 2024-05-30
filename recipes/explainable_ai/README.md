@@ -3,8 +3,7 @@
   <h4>
     <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
     <a href="explainable_ai.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
-    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
+    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video</a>
   </h4>
 </div>
 
@@ -23,7 +22,7 @@ Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ### What's New
 
-The latest updates will be added here!
+New updates will be added here.
 
 <details open><summary><b>Table of Contents</b></summary>
   
