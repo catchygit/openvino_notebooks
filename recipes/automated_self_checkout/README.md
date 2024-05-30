@@ -1,30 +1,41 @@
-# Automated Self-Checkout with OpenVINO™
+<div id="top" align="center">
+  <h1>Automated Self-Checkout with OpenVINO™ Toolkit</h1>
+  <h4>
+    <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
+    <a href="self-checkout-recipe.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=VrJRr_thxcs">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=rw8cTr-hD-g">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
+    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
+    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
+  </h4>
+</div>
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
 Automated Self-Checkout is an application designed to help automate checkout for retail businesses, by analyzing video streams and detecting and tracking interactions with retail products. It uses OpenVINO, a toolkit that enables developers to deploy deep learning models on a variety of hardware platforms.
 
-## Table of Contents
+![automated-self-checkout](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/965a6604-fa15-427e-9d44-c23fa0bbeb6b)
 
+### What's New
+
+The latest updates will be added here!
+
+<details open><summary><b>Table of Contents</b></summary>
+  
 - [Getting Started](#getting-started)
-	- [Installing Prerequisites](#installing-prerequisites)
-	- [Setting up your Environment](#setting-up-your-environment)
-		- [Cloning the Repository](#cloning-the-repository)
-		- [Creating a Virtual Environment](#creating-a-virtual-environment)
-		- [Activating the Environment](#activating-the-environment)
-		- [Installing the Packages](#installing-the-packages)
-	- [Running the Application](#running-the-application)
+  - [Installing Prerequisites](#installing-prerequisites)
+  - [Setting up your Environment](#setting-up-your-environment)
+  - [Running the Application](#running-the-application)
 - [Benchmarking the Model with OpenVINO's `benchmark_app`](#benchmarking-the-model-with-openvinos-benchmark_app)
-	- [Benchmark Results](#benchmark-results)
-	- [Running the Benchmark](#running-the-benchmark)
-- [Appendix](#appendix)
-- [Troubleshooting and Resources](#troubleshooting-and-resources)
+- [Additional Resources](#additional-resources)
 
-## Getting Started
+</details>
+
+# Getting Started
 
 Now, let's dive into the steps starting with installing Python. We recommend using Ubuntu to set up and run this project.
 
-### Installing Prerequisites
+## Installing Prerequisites
 
 This project requires Python 3.8 or higher and a few libraries. If you don't have Python installed on your machine, go to https://www.python.org/downloads/ and download the latest version for your operating system. Follow the prompts to install Python, making sure to check the option to add Python to your PATH environment variable.
 
@@ -36,9 +47,9 @@ sudo apt install git git-lfs gcc python3-venv python3-dev
 
 _NOTE: If you are using Windows, you will probably need to install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) also._
 
-### Setting up your Environment
+## Setting up your Environment
 
-#### Cloning the Repository
+### Cloning the Repository
 
 To clone the repository, run the following command:
 
@@ -58,7 +69,7 @@ Then pull the video sample:
 git lfs pull
 ```
 
-#### Creating a Virtual Environment
+### Creating a Virtual Environment
 
 To create a virtual environment, open your terminal or command prompt and navigate to the directory where you want to create the environment. Then, run the following command:
 
@@ -67,7 +78,7 @@ python3 -m venv venv
 ```
 This will create a new virtual environment named "venv" in the current directory.
 
-#### Activating the Environment
+### Activating the Environment
 
 Activate the virtual environment using the following command:
 
@@ -79,7 +90,7 @@ _NOTE: If you are using Windows, use `venv\Scripts\activate` command instead._
 
 This will activate the virtual environment and change your shell's prompt to indicate that you are now working within that environment.
 
-#### Installing the Packages
+### Installing the Packages
 
 To install the required packages, run the following commands:
 
@@ -88,13 +99,15 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Running the Application
+## Running the Application
 
 You can run the [run-the-application.ipynb](self-checkout-recipe.ipynb) to learn more about the inference process.
 
-## Benchmarking the Model with OpenVINO's `benchmark_app`
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
 
-Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
+# Benchmarking the Model with OpenVINO's `benchmark_app`
+
+Benchmarking provides insight into your model's real-world performance. Performance may vary based on use and configuration.
 
 ### Benchmark Results 
 
@@ -114,7 +127,7 @@ Replace `int8_model_det_path` with the path to your INT8 model and $device with 
 
 Congratulations! You have successfully set up and run the Detection and Tracking for Automated Self-Checkout application with OpenVINO.
 
-## Appendix
+### Appendix
 
 Platform Configurations for Performance Benchmarks for YOLOv8m Model
 
@@ -136,8 +149,8 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
 
-## Troubleshooting and Resources
-- Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
-- Create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issues)
+# Additional Resources
 - Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
 - Explore [OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
