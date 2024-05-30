@@ -21,7 +21,7 @@ This kit uses the following technology stack:
 - [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
 
 
-Check out our [Edge AI Reference Kits repository](/recipes) for other kits.
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![explainable-ai](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/14958589-433b-4617-b3ea-e2307fe6cb53)
 
