@@ -1,12 +1,9 @@
 <div id="top" align="center">
   <h1>Explainable AI with OpenVINO™ Toolkit</h1>
-  
   <h4>
     <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
     <a href="explainable_ai.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
-    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
-    <a href="/">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
     <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
   </h4>
 </div>
@@ -19,7 +16,6 @@ This kit uses the following technology stack:
 - [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
 - [OpenVINO Datumaro](https://docs.openvino.ai/2023.3/datumaro_documentation.html)
 - [Ultralytic’s YOLOv8](https://github.com/ultralytics/ultralytics)
-
 
 Check out our [Edge AI Reference Kits repository](/) for other kits.
 
@@ -112,11 +108,11 @@ You can run [explainable_ai.ipynb](explainable_ai.ipynb) to learn more about the
 
 Congratulations! You have successfully set up and run the Explainable AI kit.
 
-<p align="right"><a href="#top">Back to top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
 
 # Benchmarking the Model with OpenVINO's `benchmark_app`
 
-Benchmarking provides insight into your YOLOv8 model's real-world performance. Performance may vary based on use and configuration.
+Benchmarking provides insight into your model's real-world performance. Performance may vary based on use and configuration.
 
 ### Benchmark Results 
 
@@ -156,10 +152,8 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
 
-<p align="right"><a href="#top">Back to top ⬆️ </a></p>
-
 # Additional Resources
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel.
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit.
 
-<p align="right"><a href="#top">Back to top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
