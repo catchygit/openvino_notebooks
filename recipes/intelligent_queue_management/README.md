@@ -2,8 +2,8 @@
   <h1>Intelligent Queue Management with OpenVINO™ Toolkit</h1>
   <h4>
     <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
-    📔&nbsp;Jupyter Notebooks: <a href="/docs/convert-and-optimize-the-model.ipynb">Convert & optimize&nbsp;·</a>,
-    <a href="/docs/run-the-application.ipynb">Run&nbsp;·</a>
+    <a href="/docs/convert-and-optimize-the-model.ipynb">📔&nbsp;Convert & Optimize Notebook</a>,
+    <a href="/docs/run-the-application.ipynb">Run Notebook&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=fwFbl4_8jk8">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=9E2baweCCXQ">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
     <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
