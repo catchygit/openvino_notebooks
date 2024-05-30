@@ -6,7 +6,7 @@
     <a href="docs/run-the-application.ipynb">Run&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=fwFbl4_8jk8">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=9E2baweCCXQ">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
+    <a href="https://www.intel.com/content/www/us/en/developer/articles/training/create-intelligent-queue-management.html">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
   </h4>
 </div>
 
