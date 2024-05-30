@@ -1,4 +1,4 @@
-<div align="center">
+<div id="top" align="center">
   <h1>Explainable AI with OpenVINO™ Toolkit</h1>
   
   <h4>
@@ -112,7 +112,7 @@ You can run [explainable_ai.ipynb](explainable_ai.ipynb) to learn more about the
 
 Congratulations! You have successfully set up and run the Explainable AI kit.
 
-<p align="right"><a href="#explainable-ai-with-openvino-toolkit">Back to top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
 
 # Benchmarking the Model with OpenVINO's `benchmark_app`
 
@@ -156,10 +156,10 @@ Platform Configurations for Performance Benchmarks for YOLOv8m Model
 | Benchmark Date | May 31, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 | June 15, 2023 | May 29, 2023 
 | Benchmarked by | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation | Intel Corporation |
 
-<p align="right"><a href="#explainable-ai-with-openvino-toolkit">Back to top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
 
 # Additional Resources
 - [DarwinAI Case Study](https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/documents/darwinai-delivers-explainable-ai-case-study.html): See how others are implementing Explainable AI practices with Intel.
 - [Interview on building Ethical AI with Explainable AI](https://www.youtube.com/watch?v=wWjlWpI4EIE): Learn more about key topics around Explainable AI from Ria, our evangelist ​and creator of the Explainable AI kit.
 
-<p align="right"><a href="#explainable-ai-with-openvino-toolkit">Back to top ⬆️ </a></p>
+<p align="right"><a href="#top">Back to top ⬆️ </a></p>
