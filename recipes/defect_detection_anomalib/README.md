@@ -13,9 +13,15 @@
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
-Intel’s OpenVINO™ Defect Detection with Anomalib offers a comprehensive solution to their quality control problem by providing companies and their technical teams with a single-source end-to-end solution to catch manufacturing defects in real time. 
+Intel’s OpenVINO™ Defect Detection with Anomalib offers a comprehensive solution to quality control. It provides companies and their technical teams with a single-source, end-to-end solution to catch manufacturing defects in real time. Product defects are a significant issue for manufacturers, leading to wasted resources, decreased customer satisfaction, and reduced profits. 
 
-This AI Recipe uses the notebooks in the actual Anomalib repository. Here you will find that repository as a submodule.
+The kit trains a model to detect defects using Anomalib, an open-source deep-learning library, to make it easy to train, test, and deploy different anomaly detection algorithms on public and custom datasets. The model can be exported to the OpenVINO™ Intermediate Representation and deployed on Intel hardware. They are optimized for inference performance, trainable on CPU, and require low memory use, making them suitable for deployment on the edge.
+
+This AI Recipe uses the notebooks in the actual Anomalib repository. Here you will find that repository as a submodule. This kit uses the following technology stack:
+- [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
+- [Anomalib](https://github.com/openvinotoolkit/anomalib)
+
+Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ![defect-detection](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/cf933593-31f7-44a5-9cd1-fc68e8a719a9)
 
@@ -31,17 +37,9 @@ The latest updates will be added here!
     - [Setting up the Dobot Robot (Optional)](#setting-up-the-dobot-robot-optional)
     - [Data Acquisition and Inferencing](#data-acquisition-and-inferencing)
     - [Training](#training)
-  - [Understanding Defect Detection](#understanding-defect-detection)
 - [Additional Resources](#additional-resources)
 
 </details>
-
-| Notebook |  |
-| - | - |
-| Training a Model | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501a_training_a_model_with_cubes_from_a_robotic_arm.ipynb) |
-| Dataset Creation and Inference | [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501b_inference_with_a_robotic_arm.ipynb) |
-
-Before running the above notebooks, run the installation process inside the OpenVINO Notebooks environment.
 
 # Installing Anomalib
 
@@ -49,7 +47,7 @@ If you have not installed all required dependencies, just run `pip install anoma
 
 ## Getting Started with the Jupyter Notebook
 
-This notebook demonstrates how NNCF can be used to compress a model trained with Anomalib. The notebook is divided into the following sections:
+This notebook demonstrates how NNCF compresses a model trained with Anomalib. The notebook is divided into the following sections:
 
 - Train an Anomalib model without compression
 - Train a model with NNCF compression
@@ -63,7 +61,7 @@ Connect your USB Camera and verify it works using a simple camera application. O
 
 1. Install Dobot requirements (See Dobot documentation here: https://en.dobot.cn/products/education/magician.html).
 2. Check all connections to the Dobot and verify it is working using the Dobot Studio.
-3. Install the vent accessory on the Dobot and verify it is working using Dobot Studio.
+3. Install the vent accessory on the Dobot and verify it works using Dobot Studio.
 4. In the Dobot Studio, hit the "Home" button, and locate the:
 
 ![image](https://user-images.githubusercontent.com/10940214/219142393-c589f275-e01a-44bb-b499-65ebeb83a3dd.png)
@@ -85,14 +83,6 @@ _Note_: If you don't have the robot you could jump to another notebook [501a](ht
 ### Training
 
 For training, we will use the [501a notebook](https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501a_training_a_model_with_cubes_from_a_robotic_arm.ipynb). In this example we are using "Padim" model and we are using Anomalib API for setting up the dataset, model, metrics, and the optimization process with OpenVINO.
-
-## Understanding Defect Detection
-
-Product defects are a significant issue for manufacturers, leading to wasted resources, decreased customer satisfaction, and reduced profits. Despite decades of efforts to implement quality control measures, manufacturers have struggled to eliminate product defects entirely due to various challenges. 
-
-The kit trains a model to detect defects using Anomalib, an open-source deep-learning library, to make it easy to train, test, and deploy different anomaly detection algorithms on both public and custom datasets. The model can be exported to the OpenVINO™ Intermediate Representation and deployed on Intel hardware. They are optimized for inference performance, trainable on CPU, and require low memory use, making them suitable for deployment on the edge.
-
-The kit also includes educational documentation and resources to empower developers to make decisions with confidence every step of the way. By streamlining the process of researching and implementing quality control measures, this recipe kit enables companies and their developers to solve this real-world problem while reducing costs, time, and risks.
 
 # Additional Resources
 - Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
