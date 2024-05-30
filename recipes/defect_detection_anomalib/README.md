@@ -50,7 +50,7 @@ This notebook demonstrates how NNCF compresses a model trained with Anomalib. Th
 - Train a model with NNCF compression
 - Compare the performance of the two models (FP32 vs INT8)
 
-## Setting up your Camera
+### Setting up your Camera
 
 Connect your USB Camera and verify it works using a simple camera application. Once it is verified, close the application.
 
