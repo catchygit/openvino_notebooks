@@ -1,14 +1,41 @@
-# Custom AI Assistant with OpenVINO™
+<div id="top" align="center">
+  <h1>Custom AI Assistant with OpenVINO™ Toolkit</h1>
+  <h4>
+    <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
+    <a href="explainable_ai.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=InXb2wLCsJE">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
+    <a href="/">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;(Coming Soon)&nbsp;·</a>
+    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
+    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
+  </h4>
+</div>
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
 The Custom AI Assistant utilizes the OpenVINO™ toolkit to create a streamlined, voice-activated interface that developers can easily integrate and deploy. At its core, the application harnesses state-of-the-art models for speech recognition and natural language understanding. It's configured to understand user prompts and engage in dialogue, facilitating an interactive and user-friendly conversational agent.
 
-## Getting Started
+![custom-ai-assistant](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/e0c2f2db-c213-4071-970b-09ebc1eea710)
+
+### What's New
+
+The latest updates will be added here!
+
+<details open><summary><b>Table of Contents</b></summary>
+  
+- [Getting Started](#getting-started)
+  - [Installing Prerequisites](#installing-prerequisites)
+  - [Setting up your Environment](#setting-up-your-environment)
+  - [How to Access LlaMA](#how-to-access-llama)
+  - [Running the Application](#running-the-application)
+- [Additional Resources](#additional-resources)
+
+</details>
+
+# Getting Started
 
 Now, let's dive into the steps starting with installing Python. We recommend using Ubuntu to set up and run this project.
 
-### Installing Prerequisites
+## Installing Prerequisites
 
 This project requires Python 3.8 or higher and a few libraries. If you don't have Python installed on your machine, go to https://www.python.org/downloads/ and download the latest version for your operating system. Follow the prompts to install Python, making sure to check the option to add Python to your PATH environment variable.
 
@@ -20,9 +47,9 @@ sudo apt install git gcc python3-venv python3-dev
 
 _NOTE: If you are using Windows, you may need to install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) also._
 
-### Setting up your Environment
+## Setting up your Environment
 
-#### Cloning the Repository
+### Cloning the Repository
 
 To clone the repository, run the following command:
 
@@ -36,7 +63,7 @@ The above will clone the repository into a directory named "openvino_notebooks" 
 cd openvino_notebooks/recipes/custom_ai_assistant
 ```
 
-#### Creating a Virtual Environment
+### Creating a Virtual Environment
 
 To create a virtual environment, open your terminal or command prompt and navigate to the directory where you want to create the environment. Then, run the following command:
 
@@ -45,7 +72,7 @@ python3 -m venv venv
 ```
 This will create a new virtual environment named "venv" in the current directory.
 
-#### Activating the Environment
+### Activating the Environment
 
 Activate the virtual environment using the following command:
 
@@ -57,7 +84,7 @@ _NOTE: If you are using Windows, use `venv\Scripts\activate` command instead._
 
 This will activate the virtual environment and change your shell's prompt to indicate that you are now working within that environment.
 
-#### Installing the Packages
+### Installing the Packages
 
 To install the required packages, run the following commands:
 
@@ -65,20 +92,22 @@ To install the required packages, run the following commands:
 python -m pip install --upgrade pip 
 pip install -r requirements.txt
 ```
-### How to Access LlaMA 2
+## How to Access LlaMA
 
-_NOTE: If you already have access to the LlaMA 2 model weights, skip to the authentication step, which is mandatory for converting the LlaMA 2 model._
+_NOTE: If you already have access to the LlaMA model weights, skip to the authentication step, which is mandatory for converting the LlaMA model._
 
-#### Accessing Original Weights from Meta AI
+### Accessing Original Weights from Meta AI
 
-To access the original LlaMA 2 model weights:
+To access the original LlaMA model weights:
 
 Visit [Meta AI's website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and fill in your details, including your name, email, and organization.
 Accept the terms and submit the form. You will receive an email granting access to download the model weights.
-Using LlaMA 2 with Hugging Face
+
+### Using LlaMA with Hugging Face
+
 Set Up a Hugging Face Account: If you don't have one, create a [Hugging Face account](https://huggingface.co/welcome).
 
-Authenticate with Meta AI: Go to the LlaMA 2 model page on Hugging Face. You'll need to enter the same email address you used for the Meta AI website to be authenticated. After authentication, you'll gain access to the model.
+Authenticate with Meta AI: Go to the LlaMA model (v2 or v3) page on Hugging Face. You'll need to enter the same email address you used for the Meta AI website to be authenticated. After authentication, you'll gain access to the model.
 
 To use the model, authenticate using the Hugging Face CLI:
 
@@ -101,9 +130,9 @@ python convert_and_optimize_asr.py --quantize_weights
 ```
 This script will convert and optimize the automatic speech recognition (ASR) model performing weights quantization.
 
-2. Chat LLama2 Conversion:
+2. Chat LLama Conversion:
 ```shell
-python convert_and_optimize_chat.py --chat_model_type llama2-7B --quantize_weights int8
+python convert_and_optimize_chat.py --chat_model_type llama3-8B --quantize_weights int8
 ```
 This script will handle the conversion and optimization of the chat model performing weights quantization. 
 
@@ -134,8 +163,8 @@ Feel free to engage with the Custom AI Assistant, ask questions, or give command
 
 Enjoy exploring the capabilities of your Custom AI Assistant!
 
-## Troubleshooting and Resources
-- Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
-- Create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issues)
+# Additional Resources
 - Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
 - Explore [OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
