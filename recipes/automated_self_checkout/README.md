@@ -5,8 +5,7 @@
     <a href="self-checkout-recipe.ipynb">📔&nbsp;Jupyter&nbsp;Notebook&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=VrJRr_thxcs">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=rw8cTr-hD-g">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
-    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
+    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
   </h4>
 </div>
 
@@ -25,7 +24,7 @@ Check out our [Edge AI Reference Kits repository](/) for other kits.
 
 ### What's New
 
-The latest updates will be added here!
+New updates will be added here.
 
 <details open><summary><b>Table of Contents</b></summary>
   
