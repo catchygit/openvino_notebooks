@@ -6,7 +6,7 @@
     <a href="https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501b_inference_with_a_robotic_arm.ipynb">Inference&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=ho6R69EDyao">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
     <a href="https://www.youtube.com/watch?v=OifcJbZRaGM">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
-    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
+    <a href="https://www.intel.com/content/www/us/en/developer/articles/training/defect-detection-with-anomalib.html">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial</a>
   </h4>
 </div>
 
