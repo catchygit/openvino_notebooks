@@ -1,4 +1,15 @@
-# Defect Detection with Anomalib
+<div id="top" align="center">
+  <h1>Defect Detection with Anomalib and OpenVINO™ Toolkit</h1>
+  <h4>
+    <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/open-potential.html">🏠&nbsp;About&nbsp;Kits&nbsp;·</a>
+    <a href="https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501a_training_a_model_with_cubes_from_a_robotic_arm.ipynb">📔&nbsp;Jupter Notebook: Training</a>,
+    <a href="https://github.com/openvinotoolkit/anomalib/blob/main/notebooks/500_use_cases/501_dobot/501b_inference_with_a_robotic_arm.ipynb">Inference&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=ho6R69EDyao">📺&nbsp;Overview&nbsp;Video&nbsp;·</a>
+    <a href="https://www.youtube.com/watch?v=OifcJbZRaGM">👨‍💻&nbsp;Code&nbsp;Demo&nbsp;Video&nbsp;·</a>
+    <a href="/">📚&nbsp;Step&#8209;by&#8209;step&nbsp;Tutorial&nbsp;·</a>
+    <a href="https://github.com/openvinotoolkit/openvino_notebooks/discussions">👥&nbsp;Share&nbsp;results</a>
+  </h4>
+</div>
 
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/LICENSE)
 
@@ -6,16 +17,24 @@ Intel’s OpenVINO™ Defect Detection with Anomalib offers a comprehensive solu
 
 This AI Recipe uses the notebooks in the actual Anomalib repository. Here you will find that repository as a submodule.
 
-## Table of Contents
+![defect-detection](https://github.com/openvinotoolkit/openvino_notebooks/assets/138901786/cf933593-31f7-44a5-9cd1-fc68e8a719a9)
 
+### What's New
+
+The latest updates will be added here!
+
+<details open><summary><b>Table of Contents</b></summary>
+  
 - [Installing Anomalib](#installing-anomalib)
-- [Getting Started with the Jupyter Notebook](#getting-started-with-the-jupyter-notebook)
-	- [Setting up your camera](#setting-up-your-camera)
-	- [Setting up the Dobot Robot (Optional)](#setting-up-the-dobot-robot-optional)
-	- [Data Acquisition and Inferencing](#data-acquisition-and-inferencing)
-- [Training](#training)
-- [Understanding Defect Detection](#understanding-defect-detection)
-- [Troubleshooting and Resources](#troubleshooting-and-resources)
+  - [Getting Started with the Jupyter Notebook](#getting-started-with-the-jupyter-notebook)
+    - [Setting up your camera](#setting-up-your-camera)
+    - [Setting up the Dobot Robot (Optional)](#setting-up-the-dobot-robot-optional)
+    - [Data Acquisition and Inferencing](#data-acquisition-and-inferencing)
+    - [Training](#training)
+  - [Understanding Defect Detection](#understanding-defect-detection)
+- [Additional Resources](#additional-resources)
+
+</details>
 
 | Notebook |  |
 | - | - |
@@ -24,7 +43,7 @@ This AI Recipe uses the notebooks in the actual Anomalib repository. Here you wi
 
 Before running the above notebooks, run the installation process inside the OpenVINO Notebooks environment.
 
-## Installing Anomalib
+# Installing Anomalib
 
 If you have not installed all required dependencies, just run `pip install anomalib` in the same OpenVINO Notebooks environment.
 
@@ -36,7 +55,7 @@ This notebook demonstrates how NNCF can be used to compress a model trained with
 - Train a model with NNCF compression
 - Compare the performance of the two models (FP32 vs INT8)
 
-### Setting up your Camera
+## Setting up your Camera
 
 Connect your USB Camera and verify it works using a simple camera application. Once it is verified, close the application.
 
@@ -75,10 +94,8 @@ The kit trains a model to detect defects using Anomalib, an open-source deep-lea
 
 The kit also includes educational documentation and resources to empower developers to make decisions with confidence every step of the way. By streamlining the process of researching and implementing quality control measures, this recipe kit enables companies and their developers to solve this real-world problem while reducing costs, time, and risks.
 
-## Troubleshooting and Resources
- Have Fun and share your results in the discussion channel! 😊
-
-- Open a [discussion topic](https://github.com/openvinotoolkit/openvino_notebooks/discussions)
-- Create an [issue](https://github.com/openvinotoolkit/openvino_notebooks/issues)
+# Additional Resources
 - Learn more about [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
 - Explore [OpenVINO’s documentation](https://docs.openvino.ai/2023.0/home.html)
+
+<p align="right"><a href="#top">Back to top ⬆️</a></p>
