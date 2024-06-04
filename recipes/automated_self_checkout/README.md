@@ -107,7 +107,7 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-You can run [run-the-application.ipynb](self-checkout-recipe.ipynb) to learn more about the inference process.
+You can run [self-checkout-recipe.ipynb](self-checkout-recipe.ipynb) to learn more about the inference process.
 
 <p align="right"><a href="#top">Back to top ⬆️</a></p>
 
