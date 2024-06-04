@@ -14,7 +14,7 @@
 
 Intel’s OpenVINO™ Defect Detection with Anomalib offers a comprehensive solution to quality control through real-time detection of manufacturing defects. The kit trains a model to detect defects using Anomalib, an open-source deep-learning library, to make it easy to train, test, and deploy different anomaly detection algorithms on public and custom datasets. The model can be exported to the OpenVINO™ Intermediate Representation and deployed on Intel hardware. They are optimized for inference performance, trainable on CPU, and require low memory use, making them suitable for deployment on the edge.
 
-This AI Recipe uses the notebooks in the actual Anomalib repository. Here you will find that repository as a submodule. This kit uses the following technology stack:
+This kit uses the notebooks in the actual Anomalib repository. Here you will find that repository as a submodule. This kit uses the following technology stack:
 - [OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) ([Docs](https://docs.openvino.ai/))
 - [Anomalib](https://github.com/openvinotoolkit/anomalib)
 
